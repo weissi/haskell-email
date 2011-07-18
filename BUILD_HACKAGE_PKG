@@ -1,0 +1,1 @@
+tar -h --exclude=_darcs -czvf email-0.1.tar.gz email-0.1
