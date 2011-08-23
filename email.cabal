@@ -11,10 +11,13 @@ Cabal-Version:          >= 1.10
 Build-Type:             Simple
 Tested-With:            GHC == 7.0.4
 Description:            A simple and small library for sending eMail.
+Source-Repository head
+  type:     git
+  location: git://github.com/weissi/haskell-email.git
 
 Library
     Default-Language:   Haskell2010
-    Build-Depends:      base, bytestring, HaskellNet, encoding == 0.6.*,
+    Build-Depends:      base == 4.*, bytestring, HaskellNet, encoding == 0.6.*,
                         process, hsemail >= 1.5, old-locale, old-time, time,
                         parsec == 3.*, array
     Exposed-Modules:    Network.EmailSend
