@@ -1,5 +1,5 @@
 Name:                   email
-Version:                0.1.1.1
+Version:                0.1.1.2
 Author:                 Johannes Weiss <weiss@tux4u.de>, Dirk Spoeri,
                         Gero Kriependorf
 License:                BSD3
@@ -19,7 +19,7 @@ Library
     Default-Language:   Haskell2010
     Build-Depends:      base == 4.*, bytestring, HaskellNet, encoding == 0.6.*,
                         process, hsemail >= 1.5, old-locale, old-time, time,
-                        parsec == 3.*, array, ghc >= 6.10 && < 7.2
+                        parsec == 3.*, array
     Exposed-Modules:    Network.EmailSend
                         Network.EmailSend.SMTP
                         Network.EmailSend.SendMail
